@@ -8,7 +8,7 @@ import ua.lviv.iot.service.StationService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/antoniuk_db")
+@RequestMapping("/bozhyk_db")
 public class StationController implements Controller<Station> {
     @Autowired
     StationService stationService;
