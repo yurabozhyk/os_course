@@ -8,7 +8,7 @@ import ua.lviv.iot.service.OutputService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/antoniuk_db")
+@RequestMapping("/bozhyk_db")
 public class OutputController implements Controller<Output> {
     @Autowired
     OutputService outputService;
