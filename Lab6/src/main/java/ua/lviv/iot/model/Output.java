@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name = "output", schema = "antoniuk_db")
+@Table(name = "output", schema = "bozhyk_db")
 public class Output {
     private int id;
     private int powerPerHour;
