@@ -8,7 +8,7 @@ import ua.lviv.iot.service.PriceService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/antoniuk_db")
+@RequestMapping("/bozhyk_db")
 public class PriceController implements Controller<Price> {
     @Autowired
     PriceService priceService;
