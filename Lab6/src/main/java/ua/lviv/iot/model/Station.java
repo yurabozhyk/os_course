@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name = "station", schema = "antoniuk_db")
+@Table(name = "station", schema = "bozhyk_db")
 public class Station {
     private int id;
     private int numberOfPanels;
