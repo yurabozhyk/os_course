@@ -25,7 +25,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("ua.lviv.iot"))
-                .paths(regex("/antoniuk_db.*"))
+                .paths(regex("/bozhyk_db.*"))
                 .build()
                 .apiInfo(apiInfo());
     }
