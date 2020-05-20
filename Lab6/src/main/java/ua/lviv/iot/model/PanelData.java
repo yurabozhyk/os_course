@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name = "panel_data", schema = "antoniuk_db")
+@Table(name = "panel_data", schema = "bozhyk_db")
 public class PanelData {
     private int id;
     private Date date;
