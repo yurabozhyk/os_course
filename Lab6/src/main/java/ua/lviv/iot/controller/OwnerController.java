@@ -8,7 +8,7 @@ import ua.lviv.iot.service.OwnerService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/antoniuk_db")
+@RequestMapping("/bozhyk_db")
 public class OwnerController implements Controller<Owner> {
     @Autowired
     OwnerService ownerService;
