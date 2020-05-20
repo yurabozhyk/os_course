@@ -8,7 +8,7 @@ import ua.lviv.iot.service.PanelService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/antoniuk_db")
+@RequestMapping("/bozhyk_db")
 public class PanelController implements Controller<Panel> {
     @Autowired
     PanelService panelService;
