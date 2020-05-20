@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 @Entity
-@Table(name = "household", schema = "antoniuk_db")
+@Table(name = "household", schema = "bozhyk_db")
 public class Household {
     private int id;
     private String name;
