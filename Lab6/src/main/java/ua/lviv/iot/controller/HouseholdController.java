@@ -8,7 +8,7 @@ import ua.lviv.iot.service.HouseholdService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/antoniuk_db")
+@RequestMapping("/bozhyk_db")
 public class HouseholdController implements Controller<Household> {
     @Autowired
     HouseholdService householdService;
